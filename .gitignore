@@ -1,0 +1,21 @@
+# Hugo-spezifische generierte Dateien und Ordner
+/public          # Der Ordner, in den Hugo deine fertige Website generiert
+/resources/_gen  # Generierte Ressourcen (Bilder, CSS, etc.)
+
+# Theme-spezifische generierte Dateien (falls vorhanden)
+/themes/*/resources/_gen
+
+# Temporäre Dateien und Ordner
+/.DS_Store       # macOS Desktop Services Store-Datei
+/Thumbs.db      # Windows Miniaturansicht-Cache-Datei
+/.hugo_build.lock # Hugo Build Lock Datei (kann temporär sein)
+
+# Editor- und IDE-spezifische Dateien und Ordner (optional, je nach verwendetem Editor)
+.vscode/        # Visual Studio Code spezifische Einstellungen
+.idea/          # IntelliJ IDEA spezifische Einstellungen
+*.swp           # Vim Swap-Dateien
+*~              # Emacs Backup-Dateien
+
+# Sonstige temporäre Dateien oder Logs (je nach Bedarf)
+# my_log_file.log
+# temp_data/
