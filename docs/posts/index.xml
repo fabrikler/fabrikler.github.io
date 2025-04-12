@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on carlosmeyer</title>
+    <link>https://fabrikler.github.io/posts/</link>
+    <description>Recent content in Posts on carlosmeyer</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Apr 2025 07:11:51 +0200</lastBuildDate>
+    <atom:link href="https://fabrikler.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a Dataset — 002</title>
+      <link>https://fabrikler.github.io/posts/my-second-post/</link>
+      <pubDate>Thu, 10 Apr 2025 07:11:51 +0200</pubDate>
+      <guid>https://fabrikler.github.io/posts/my-second-post/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Telling stories with data — 001</title>
+      <link>https://fabrikler.github.io/posts/my-first-post/</link>
+      <pubDate>Wed, 09 Apr 2025 07:11:14 +0200</pubDate>
+      <guid>https://fabrikler.github.io/posts/my-first-post/</guid>
+      <description>&lt;p&gt;Wenn es um Datenanalyse in Python geht, führt kaum ein Weg an Pandas vorbei. Die Open-Source-Bibliothek hat sich seit ihrer Einführung im Jahr 2008 zu einem der wichtigsten Tools für Data Scientists, Analysten und Entwickler entwickelt – und das aus gutem Grund. Mit Pandas lassen sich Daten nicht nur effizient einlesen, bereinigen und transformieren, sondern auch in wenigen Zeilen Code analysieren und visualisieren.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;name&#34; loading=&#34;lazy&#34; src=&#34;https://fabrikler.github.io/images/testframe.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Das Herzstück von Pandas sind die beiden zentralen Datenstrukturen: Series (1D) und DataFrame (2D). Sie bieten eine intuitive, tabellenartige Darstellung, die stark an Excel erinnert – mit dem Unterschied, dass Pandas um ein Vielfaches mächtiger ist.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

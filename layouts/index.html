@@ -1,0 +1,39 @@
+{{ define "main" }}
+
+<div class="site-container">
+  <div class="content-intro">
+    <p><strong>I’m a visual storyteller</strong> with a background in creative direction and brand storytelling. Now, I’m exploring the world of development.</p><br>
+
+      <p>I’ve started building and experimenting with small projects that bring data and design together.</p><br>
+    
+      <p>
+        → <strong>Current:</strong> learning Python & web apps<br>
+        → <strong>Goal:</strong> developing digital products<br>
+        → <strong>Always:</strong> deep work, playing with patterns, minimalism<br>
+        → <strong>Raving for:</strong> hiking in the Alps, cycling, expanding my rock collection
+      </p><br>
+    
+      <p><em>This site is a record of my journey — my lab, my workbench.</em></p><br>
+
+      <p>Feel free to connect: <a href="mailto:hi@carlosmeyer.xyz">hi@carlosmeyer.xyz</a></p>
+
+  </div>
+</section>
+
+{{ $pages := site.RegularPages }}
+{{ $paginator := .Paginate $pages }}
+
+<section class="project-gallery">
+  <p style="text-align: right; color: #aaa; font-size: 0.8rem; margin-bottom: 0.5rem;">lab log:</p>
+  {{ range $paginator.Pages }}
+    {{ $page := . }}
+    <a href="{{ $page.RelPermalink }}" class="project-item">
+      <span class="project-date">{{ $page.Date.Format "January 02, 2006" | lower }}</span>
+      <span class="project-title">{{ $page.Title }}</span>
+    </a>
+  {{ end }}
+</section>
+
+</div>
+
+{{ end }}

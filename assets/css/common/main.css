@@ -1,0 +1,109 @@
+/* -------------------------------
+   Main-Layout anpassen
+---------------------------------- */
+.main {
+    position: relative;
+    display: flex; /* Flexbox für den Hauptbereich */
+    flex-direction: column; /* Der Inhalt wird in Spalten angezeigt */
+    flex-grow: 1; /* Der Hauptbereich nimmt den verbleibenden Platz ein */
+    min-height: 100vh; /* Volle Höhe des Viewports */
+    max-width: calc(var(--main-width) + var(--gap) * 2); /* Maximale Breite */
+    margin: auto;
+    padding: var(--gap);
+}
+
+/* -------------------------------
+   Header-Design
+---------------------------------- */
+.page-header h1 {
+    font-size: 40px;
+}
+
+/* -------------------------------
+   Pagination-Design
+---------------------------------- */
+.pagination {
+    display: flex;
+}
+
+.pagination a {
+    color: var(--theme);
+    font-size: 13px;
+    line-height: 36px;
+    background: var(--primary);
+    border-radius: calc(36px / 2);
+    padding: 0 16px;
+}
+
+.pagination .next {
+    margin-inline-start: auto;
+}
+
+/* -------------------------------
+   Social Icons-Design
+---------------------------------- */
+.social-icons a {
+    display: inline-flex;
+    padding: 10px;
+}
+
+.social-icons a svg {
+    height: 26px;
+    width: 26px;
+}
+
+/* -------------------------------
+   Code-Syntax und Highlight
+---------------------------------- */
+code {
+    direction: ltr;
+}
+
+div.highlight,
+pre {
+    position: relative;
+}
+
+.copy-code {
+    display: none;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgba(78, 78, 78, 0.8);
+    border-radius: var(--radius);
+    padding: 0 5px;
+    font-size: 14px;
+    user-select: none;
+}
+
+div.highlight:hover .copy-code,
+pre:hover .copy-code {
+    display: block;
+}
+
+/* -------------------------------
+   Footer – Positionierung optimieren
+---------------------------------- */
+.footer {
+    background-color: #181818;
+    color: #888;
+    text-align: left;
+    font-size: 0.8rem;
+    padding: 1rem 0;
+    border-top: 1px solid #333;
+    margin-top: auto; /* Footer immer am Ende der Seite */
+    width: 100%; /* Fußzeile nimmt die gesamte Breite ein */
+}
+
+/* -------------------------------
+   Entfernt Underlines in Links und Hover-Effekte
+---------------------------------- */
+.footer a {
+    color: #aaa;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #fff;
+}

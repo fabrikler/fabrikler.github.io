@@ -1,0 +1,40 @@
+{{/* Theme handling bleibt erhalten (optional) */}}
+{{- if (not site.Params.disableThemeToggle) }}
+  {{- if (eq site.Params.defaultTheme "light") }}
+  <script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+      document.body.classList.add('dark');
+    }
+  </script>
+  {{- else if (eq site.Params.defaultTheme "dark") }}
+  <script>
+    if (localStorage.getItem("pref-theme") === "light") {
+      document.body.classList.remove('dark');
+    }
+  </script>
+  {{- else }}
+  <script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+      document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+      document.body.classList.remove('dark');
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      document.body.classList.add('dark');
+    }
+  </script>
+  {{- end }}
+{{- end }}
+
+<header class="site-header">
+    <div class="site-container">
+      <div class="site-header-inner">
+        {{- $label_text := (site.Params.label.text | default site.Title) }}
+        {{- if site.Title }}
+        <a class="site-title" href="{{ "" | absLangURL }}" accesskey="h" title="{{ $label_text }} (Alt + H)">
+          {{ $label_text }}
+        </a>
+        {{- end }}
+      </div>
+    </div>
+  </header>
+  

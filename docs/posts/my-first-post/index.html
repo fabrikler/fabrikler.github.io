@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Telling stories with data — 001 | carlosmeyer</title>
+<meta name="keywords" content="">
+<meta name="description" content="Wenn es um Datenanalyse in Python geht, führt kaum ein Weg an Pandas vorbei. Die Open-Source-Bibliothek hat sich seit ihrer Einführung im Jahr 2008 zu einem der wichtigsten Tools für Data Scientists, Analysten und Entwickler entwickelt – und das aus gutem Grund. Mit Pandas lassen sich Daten nicht nur effizient einlesen, bereinigen und transformieren, sondern auch in wenigen Zeilen Code analysieren und visualisieren.
+
+Das Herzstück von Pandas sind die beiden zentralen Datenstrukturen: Series (1D) und DataFrame (2D). Sie bieten eine intuitive, tabellenartige Darstellung, die stark an Excel erinnert – mit dem Unterschied, dass Pandas um ein Vielfaches mächtiger ist.">
+<meta name="author" content="">
+<link rel="canonical" href="https://fabrikler.github.io/posts/my-first-post/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.92e5f8d7273345f747d429c4b0028e3f87c352292351a412af8bae594808d97a.css" integrity="sha256-kuX41yczRfdH1CnEsAKOP4fDUikjUaQSr4uuWUgI2Xo=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://fabrikler.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://fabrikler.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://fabrikler.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://fabrikler.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://fabrikler.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://fabrikler.github.io/posts/my-first-post/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://fabrikler.github.io/posts/my-first-post/">
+  <meta property="og:site_name" content="carlosmeyer">
+  <meta property="og:title" content="Telling stories with data — 001">
+  <meta property="og:description" content="Wenn es um Datenanalyse in Python geht, führt kaum ein Weg an Pandas vorbei. Die Open-Source-Bibliothek hat sich seit ihrer Einführung im Jahr 2008 zu einem der wichtigsten Tools für Data Scientists, Analysten und Entwickler entwickelt – und das aus gutem Grund. Mit Pandas lassen sich Daten nicht nur effizient einlesen, bereinigen und transformieren, sondern auch in wenigen Zeilen Code analysieren und visualisieren.
+Das Herzstück von Pandas sind die beiden zentralen Datenstrukturen: Series (1D) und DataFrame (2D). Sie bieten eine intuitive, tabellenartige Darstellung, die stark an Excel erinnert – mit dem Unterschied, dass Pandas um ein Vielfaches mächtiger ist.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-04-09T07:11:14+02:00">
+    <meta property="article:modified_time" content="2025-04-09T07:11:14+02:00">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Telling stories with data — 001">
+<meta name="twitter:description" content="Wenn es um Datenanalyse in Python geht, führt kaum ein Weg an Pandas vorbei. Die Open-Source-Bibliothek hat sich seit ihrer Einführung im Jahr 2008 zu einem der wichtigsten Tools für Data Scientists, Analysten und Entwickler entwickelt – und das aus gutem Grund. Mit Pandas lassen sich Daten nicht nur effizient einlesen, bereinigen und transformieren, sondern auch in wenigen Zeilen Code analysieren und visualisieren.
+
+Das Herzstück von Pandas sind die beiden zentralen Datenstrukturen: Series (1D) und DataFrame (2D). Sie bieten eine intuitive, tabellenartige Darstellung, die stark an Excel erinnert – mit dem Unterschied, dass Pandas um ein Vielfaches mächtiger ist.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://fabrikler.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Telling stories with data — 001",
+      "item": "https://fabrikler.github.io/posts/my-first-post/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Telling stories with data — 001",
+  "name": "Telling stories with data — 001",
+  "description": "Wenn es um Datenanalyse in Python geht, führt kaum ein Weg an Pandas vorbei. Die Open-Source-Bibliothek hat sich seit ihrer Einführung im Jahr 2008 zu einem der wichtigsten Tools für Data Scientists, Analysten und Entwickler entwickelt – und das aus gutem Grund. Mit Pandas lassen sich Daten nicht nur effizient einlesen, bereinigen und transformieren, sondern auch in wenigen Zeilen Code analysieren und visualisieren.\nDas Herzstück von Pandas sind die beiden zentralen Datenstrukturen: Series (1D) und DataFrame (2D). Sie bieten eine intuitive, tabellenartige Darstellung, die stark an Excel erinnert – mit dem Unterschied, dass Pandas um ein Vielfaches mächtiger ist.\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "Wenn es um Datenanalyse in Python geht, führt kaum ein Weg an Pandas vorbei. Die Open-Source-Bibliothek hat sich seit ihrer Einführung im Jahr 2008 zu einem der wichtigsten Tools für Data Scientists, Analysten und Entwickler entwickelt – und das aus gutem Grund. Mit Pandas lassen sich Daten nicht nur effizient einlesen, bereinigen und transformieren, sondern auch in wenigen Zeilen Code analysieren und visualisieren.\nDas Herzstück von Pandas sind die beiden zentralen Datenstrukturen: Series (1D) und DataFrame (2D). Sie bieten eine intuitive, tabellenartige Darstellung, die stark an Excel erinnert – mit dem Unterschied, dass Pandas um ein Vielfaches mächtiger ist.\nvariable = 5*4 Ob es darum geht, große CSV-Dateien zu importieren, Zeitreihen zu analysieren oder komplexe Gruppierungen mit .groupby() durchzuführen: Pandas macht es nicht nur möglich, sondern oft auch verblüffend einfach.\n",
+  "wordCount" : "130",
+  "inLanguage": "en",
+  "datePublished": "2025-04-09T07:11:14+02:00",
+  "dateModified": "2025-04-09T07:11:14+02:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://fabrikler.github.io/posts/my-first-post/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "carlosmeyer",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://fabrikler.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+  <script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+      document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+      document.body.classList.remove('dark');
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      document.body.classList.add('dark');
+    }
+  </script>
+
+<header class="site-header">
+    <div class="site-container">
+      <div class="site-header-inner">
+        <a class="site-title" href="https://fabrikler.github.io/" accesskey="h" title="carlosmeyer (Alt + H)">
+          carlosmeyer
+        </a>
+      </div>
+    </div>
+  </header>
+  
+<main class="main">
+
+<div class="site-container">
+
+  <article class="post-single">
+    <header class="post-header">
+      
+      <h1 class="post-title entry-hint-parent">
+        Telling stories with data — 001
+      </h1>
+      <div class="post-meta"><span title='2025-04-09 07:11:14 +0200 CEST'>April 9, 2025</span>
+
+</div>
+    </header> 
+    <div class="post-content"><p>Wenn es um Datenanalyse in Python geht, führt kaum ein Weg an Pandas vorbei. Die Open-Source-Bibliothek hat sich seit ihrer Einführung im Jahr 2008 zu einem der wichtigsten Tools für Data Scientists, Analysten und Entwickler entwickelt – und das aus gutem Grund. Mit Pandas lassen sich Daten nicht nur effizient einlesen, bereinigen und transformieren, sondern auch in wenigen Zeilen Code analysieren und visualisieren.</p>
+<p><img alt="name" loading="lazy" src="/images/testframe.png"></p>
+<p>Das Herzstück von Pandas sind die beiden zentralen Datenstrukturen: Series (1D) und DataFrame (2D). Sie bieten eine intuitive, tabellenartige Darstellung, die stark an Excel erinnert – mit dem Unterschied, dass Pandas um ein Vielfaches mächtiger ist.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>variable <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span><span style="color:#f92672">*</span><span style="color:#ae81ff">4</span>
+</span></span></code></pre></div><p>Ob es darum geht, große CSV-Dateien zu importieren, Zeitreihen zu analysieren oder komplexe Gruppierungen mit .groupby() durchzuführen: Pandas macht es nicht nur möglich, sondern oft auch verblüffend einfach.</p>
+
+
+    </div>
+
+    <footer class="post-footer">
+      <ul class="post-tags">
+      </ul>
+    </footer>
+
+  </article>
+
+</div>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://fabrikler.github.io/">carlosmeyer</a></span> · 
+
+    <span>
+
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

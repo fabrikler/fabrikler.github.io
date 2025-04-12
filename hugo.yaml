@@ -1,0 +1,17 @@
+baseURL: "https://fabrikler.github.io/"
+languageCode: "en-us"
+title: "carlosmeyer"
+theme: "PaperMod"
+
+params:
+  assets:
+    customCSS:
+      - "css/extended/custom.css" # Für die benutzerdefinierte CSS-Datei
+      - "css/common/footer.css"   # Footer-Styles
+      - "css/common/main.css"     # Main-Styles
+
+markup:
+  defaultMarkdownHandler: "goldmark"
+  goldmark:
+    parser:
+      hardWraps: true
