@@ -1,0 +1,4 @@
+{{ $class := .Get "class" | default "prologue-box" }}
+<div class="{{ $class }}">
+  {{ .Inner | markdownify }}
+</div>

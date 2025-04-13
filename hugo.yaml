@@ -15,3 +15,10 @@ markup:
   goldmark:
     parser:
       hardWraps: true
+
+params:
+  assets:
+    customCSS:
+      - "css/extended/custom.css"
+      - "css/common/footer.css"
+      - "css/common/main.css"
