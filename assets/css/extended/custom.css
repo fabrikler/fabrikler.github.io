@@ -250,3 +250,8 @@ body {
 .anchor {
   display: none !important;
 }
+
+:root {
+  --primary: #F4F3EE; /* Definiere die Primärfarbe für Links und Buttons */
+  --theme: #F4F3EE;    /* Verwende dies für allgemeine Farbdefinitionen */
+}
