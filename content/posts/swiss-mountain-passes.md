@@ -49,4 +49,4 @@ A pass ride feels like a fresh sauna infusion.
 Sweat, euphoria, and bliss wrapped in a red face and the sting of metaphorical birch branch lashes. Pain and reward go hand in hand. Push too far, and you’ll end up walking your bike. Cooling off the hard way.
 
 
-{{< caption src="/img/001/mountain-passes-overview-012.jpg" alt="Stones and Signs at Furkapass" text="Stones and Signs at Furkapass" >}}
+{{< caption src="/img/001/mountain-passes-overview-012.jpg" alt="Stones and Signs at Furkapass" text="Stones and Signs at Furka Pass" >}}
