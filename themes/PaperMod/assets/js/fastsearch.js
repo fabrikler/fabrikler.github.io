@@ -104,10 +104,10 @@ sInput.onkeyup = function (e) {
 }
 
 sInput.addEventListener('search', function (e) {
-    // clicked on x
     if (!this.value) reset()
-})
-
+  })
+  
+  
 // kb bindings
 document.onkeydown = function (e) {
     let key = e.key;

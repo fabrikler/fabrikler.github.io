@@ -8,9 +8,9 @@ theme: "PaperMod"
 params:
   assets:
     customCSS:
-      - "css/extended/custom.css" # Für die benutzerdefinierte CSS-Datei
-      - "css/common/footer.css"   # Footer-Styles
-      - "css/common/main.css"     # Main-Styles
+      - "css/style.css"       # Basis CSS-Datei für Layout und Design
+      - "css/components.css"  # Wiederverwendbare Komponenten wie Pagination und Social Icons
+      - "css/custom.css"      # Projektspezifische Anpassungen
 
 markup:
   defaultMarkdownHandler: goldmark
@@ -20,3 +20,5 @@ markup:
     renderer:
       unsafe: true  # ← Das brauchst du!
 
+params:
+  showHeadingsAnchors: false
