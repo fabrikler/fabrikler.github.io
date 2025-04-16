@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>carlosmeyer</title>
-    <link>https://fabrikler.github.io/</link>
+    <link>https://www.carlosmeyer.xyz/</link>
     <description>Recent content on carlosmeyer</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 15 Apr 2025 07:11:51 +0200</lastBuildDate>
-    <atom:link href="https://fabrikler.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.carlosmeyer.xyz/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My favourite animals are pandas (not the lazy bears) — 003</title>
-      <link>https://fabrikler.github.io/posts/working-with-pandas/</link>
+      <link>https://www.carlosmeyer.xyz/posts/working-with-pandas/</link>
       <pubDate>Tue, 15 Apr 2025 07:11:51 +0200</pubDate>
-      <guid>https://fabrikler.github.io/posts/working-with-pandas/</guid>
+      <guid>https://www.carlosmeyer.xyz/posts/working-with-pandas/</guid>
       <description>&lt;figure class=&#34;custom-caption&#34; style=&#34;margin: 2rem auto; text-align: center; max-width: 100%;&#34;&gt;
   &lt;img 
-    src=&#34;https://fabrikler.github.io/img/001/mountain-passes-overview-005.jpg&#34; 
+    src=&#34;https://www.carlosmeyer.xyz/img/001/mountain-passes-overview-005.jpg&#34; 
     alt=&#34;Source of the young Rhone River near Rhone Glacier&#34; 
     style=&#34;width: 100%; height: auto;&#34; 
   &gt;
@@ -32,12 +32,12 @@
     </item>
     <item>
       <title>Building a Dataset — 002</title>
-      <link>https://fabrikler.github.io/posts/building-a-dataset/</link>
+      <link>https://www.carlosmeyer.xyz/posts/building-a-dataset/</link>
       <pubDate>Thu, 10 Apr 2025 07:11:51 +0200</pubDate>
-      <guid>https://fabrikler.github.io/posts/building-a-dataset/</guid>
+      <guid>https://www.carlosmeyer.xyz/posts/building-a-dataset/</guid>
       <description>&lt;figure class=&#34;custom-caption&#34; style=&#34;margin: 2rem auto; text-align: center; max-width: 100%;&#34;&gt;
   &lt;img 
-    src=&#34;https://fabrikler.github.io/img/001/mountain-passes-overview-009.jpg&#34; 
+    src=&#34;https://www.carlosmeyer.xyz/img/001/mountain-passes-overview-009.jpg&#34; 
     alt=&#34;Festka Bike riding in the Alps&#34; 
     style=&#34;width: 100%; height: auto;&#34; 
   &gt;
@@ -53,12 +53,12 @@
     </item>
     <item>
       <title>Swiss Passes Smell Like Fryer Oil and Feel Like a Pilgrimage — 001</title>
-      <link>https://fabrikler.github.io/posts/swiss-mountain-passes/</link>
+      <link>https://www.carlosmeyer.xyz/posts/swiss-mountain-passes/</link>
       <pubDate>Wed, 09 Apr 2025 07:11:14 +0200</pubDate>
-      <guid>https://fabrikler.github.io/posts/swiss-mountain-passes/</guid>
+      <guid>https://www.carlosmeyer.xyz/posts/swiss-mountain-passes/</guid>
       <description>&lt;figure class=&#34;custom-caption&#34; style=&#34;margin: 2rem auto; text-align: center; max-width: 100%;&#34;&gt;
   &lt;img 
-    src=&#34;https://fabrikler.github.io/img/001/mountain-passes-overview-008.jpg&#34; 
+    src=&#34;https://www.carlosmeyer.xyz/img/001/mountain-passes-overview-008.jpg&#34; 
     alt=&#34;Landscape in rainy Ticino&#34; 
     style=&#34;width: 100%; height: auto;&#34; 
   &gt;

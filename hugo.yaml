@@ -1,6 +1,8 @@
-baseURL: "https://fabrikler.github.io/"
+baseURL: "https://www.carlosmeyer.xyz"
 languageCode: "en-us"
 title: "carlosmeyer"
+description: "Personal lab for minimal design, data projects, and Python experiments."
+author: "Carlos Meyer"
 theme: "PaperMod"
 
 params:
