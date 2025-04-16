@@ -109,7 +109,6 @@ body {
   background-color: #A39F9C;
   padding: 0.8rem 0.8rem;
   font-size: 0.8rem;
-  color: #181818;
   font-family: 'Inter', sans-serif;
   font-weight: 500; /* Inter Light 300 */
   text-decoration: none;
@@ -124,9 +123,9 @@ body {
 
 .project-date {
   font-family: 'Inter', sans-serif;
-  font-weight: 500; /* Inter Light 300 */
+  font-weight: 500;
   white-space: nowrap;
-  color: #181818;
+  color: #6A6867;
   margin-right: 1rem;
 }
 
