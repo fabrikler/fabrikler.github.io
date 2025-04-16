@@ -2,6 +2,7 @@
 date: '2025-04-15T07:11:51+02:00'
 draft: false
 title: 'My favourite animals are pandas (not the lazy bears) — 003'
+background: "/img/001/mountain-passes-overview-005.jpg"
 ---
 
 {{< caption src="/img/001/mountain-passes-overview-005.jpg" alt="Source of the young Rhone River near Rhone Glacier" text="The young Rhone, fresh from its source" >}}

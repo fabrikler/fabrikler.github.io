@@ -2,6 +2,7 @@
 date: '2025-04-09T07:11:14+02:00'
 draft: false
 title: 'Swiss Passes Smell Like Fryer Oil and Feel Like a Pilgrimage — 001'
+background: "/img/001/mountain-passes-overview-008.jpg"
 ---
 
 {{< caption src="/img/001/mountain-passes-overview-008.jpg" alt="Landscape in rainy Ticino" text="View over the moody Valle Leventina" >}}

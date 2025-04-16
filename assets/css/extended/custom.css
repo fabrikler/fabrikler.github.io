@@ -54,7 +54,7 @@ body {
 .site-title {
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: #F4F3EE;
   text-decoration: none;
 }
@@ -133,6 +133,7 @@ body {
 .project-title {
   font-family: 'Inter', sans-serif;
   font-weight: 500; /* Inter Light 300 */
+  font-size: 0.85rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -228,11 +229,16 @@ body {
   margin-top: 0; /* Entferne eventuell zusätzliche Abstände vom Titel */
 }
 
-/* Optional: Einheitlichen Abstand für die Post-Inhalte */
-.post-content {
-  margin-top: 2rem; /* Gleicher Abstand zum vorherigen Element wie auf der Index-Seite */
-  color: #F4F3EE !important; /* Verwende !important, um sicherzustellen, dass die Farbe angewendet wird */
+.post-content a {
+  text-decoration: none !important;
+  color: #F4F3EE;
+  transition: color 0.3s ease;
 }
+
+.post-content a:hover {
+  color: #A39F9C;
+}
+
 
 .post-header {
   margin: 0; /* Setzt unerwünschte Margins auf 0 */
@@ -305,5 +311,56 @@ figure.custom-caption figcaption {
   line-height: 1.7;
   margin-bottom: 3rem;
   color: #A39F9C; /* dark text for contrast on light background */
+}
+
+/* -------------------------------
+   Postcard Links
+---------------------------------- */
+
+.project-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 80px; 
+  padding: 1.25rem 1.75rem; /* leicht vergrößert */
+  border-radius: 0px;
+  margin-bottom: 0.3rem;
+  text-decoration: none;
+  color: #F4F3EE;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.project-item::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4); /* Basis-Overlay */
+  backdrop-filter: blur(0.5px);
+  z-index: 1;
+  transition: background 0.3s ease;
+}
+
+.project-item:hover::before {
+  background: rgba(0, 0, 0, 0.7); /* dunkler bei Hover */
+}
+
+.project-item span {
+  position: relative;
+  z-index: 2;
+  color: #F4F3EE;
+}
+
+.project-date {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.project-title {
+  font-weight: 500;
 }
 

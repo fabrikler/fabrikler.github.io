@@ -2,6 +2,7 @@
 date: '2025-04-10T07:11:51+02:00'
 draft: false
 title: 'Building a Dataset — 002'
+background: "/img/001/mountain-passes-overview-009.jpg"
 ---
 {{< caption src="/img/001/mountain-passes-overview-009.jpg" alt="Festka Bike riding in the Alps" text="Festka Frameset with Obermayer Wheels at Gotthard Tremola" >}}
 
