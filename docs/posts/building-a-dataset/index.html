@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Building a Dataset — 002 | carlosmeyer</title>
+<meta name="keywords" content="">
+<meta name="description" content="
+  
+  
+    Festka Frameset with Obermayer Wheels at Gotthard Tremola
+  
+
+
+If you ride mountain passes long enough, the question is no longer if you’ll ride again, but which one. And that’s exactly where the problem begins.
+Performance isn’t everything in cycling.
+Climbing - as we call it - has something mystical to it. Almost ritualistic.
+Up in the mountains, while your breathing gets heavier and your cadence slower, you can slip into altered states. Some say it’s just oxygen deprivation. But hey, the high is kind of nice.">
+<meta name="author" content="">
+<link rel="canonical" href="https://fabrikler.github.io/posts/building-a-dataset/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.ec60c3b4881c5c4aeee9d843af7abd46d8f18774df77844be1fc1e7141430b4d.css" integrity="sha256-7GDDtIgcXEru6dhDr3q9Rtjxh3Tfd4RL4fwecUFDC00=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://fabrikler.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://fabrikler.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://fabrikler.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://fabrikler.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://fabrikler.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://fabrikler.github.io/posts/building-a-dataset/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://fabrikler.github.io/posts/building-a-dataset/">
+  <meta property="og:site_name" content="carlosmeyer">
+  <meta property="og:title" content="Building a Dataset — 002">
+  <meta property="og:description" content="Festka Frameset with Obermayer Wheels at Gotthard TremolaIf you ride mountain passes long enough, the question is no longer if you’ll ride again, but which one. And that’s exactly where the problem begins.
+Performance isn’t everything in cycling.
+Climbing - as we call it - has something mystical to it. Almost ritualistic.
+Up in the mountains, while your breathing gets heavier and your cadence slower, you can slip into altered states. Some say it’s just oxygen deprivation. But hey, the high is kind of nice.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-04-10T07:11:51+02:00">
+    <meta property="article:modified_time" content="2025-04-10T07:11:51+02:00">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Building a Dataset — 002">
+<meta name="twitter:description" content="
+  
+  
+    Festka Frameset with Obermayer Wheels at Gotthard Tremola
+  
+
+
+If you ride mountain passes long enough, the question is no longer if you’ll ride again, but which one. And that’s exactly where the problem begins.
+Performance isn’t everything in cycling.
+Climbing - as we call it - has something mystical to it. Almost ritualistic.
+Up in the mountains, while your breathing gets heavier and your cadence slower, you can slip into altered states. Some say it’s just oxygen deprivation. But hey, the high is kind of nice.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://fabrikler.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Building a Dataset — 002",
+      "item": "https://fabrikler.github.io/posts/building-a-dataset/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Building a Dataset — 002",
+  "name": "Building a Dataset — 002",
+  "description": "\rFestka Frameset with Obermayer Wheels at Gotthard Tremola\rIf you ride mountain passes long enough, the question is no longer if you’ll ride again, but which one. And that’s exactly where the problem begins.\nPerformance isn’t everything in cycling.\nClimbing - as we call it - has something mystical to it. Almost ritualistic.\nUp in the mountains, while your breathing gets heavier and your cadence slower, you can slip into altered states. Some say it’s just oxygen deprivation. But hey, the high is kind of nice.\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "\rFestka Frameset with Obermayer Wheels at Gotthard Tremola\rIf you ride mountain passes long enough, the question is no longer if you’ll ride again, but which one. And that’s exactly where the problem begins.\nPerformance isn’t everything in cycling.\nClimbing - as we call it - has something mystical to it. Almost ritualistic.\nUp in the mountains, while your breathing gets heavier and your cadence slower, you can slip into altered states. Some say it’s just oxygen deprivation. But hey, the high is kind of nice.\nThe mountains are also a bit like forests:\nIn Japan, they have a concept for this: Shinrin Yoku, or forest bathing.\nIt’s the art of immersing yourself in nature with all senses. Not as a workout, but as therapy.\nThat’s exactly what climbing does. Cycling is a tool of awareness.\nBut before we talk about epic climbs and becoming some sort of monk,\nlet’s start with the most basic question:\nWhat exactly is a pass?\nCobble Serpentines at Gotthard\rThe messy truth behind beautiful roads Most cyclists have a gut feeling for what counts as a real pass. But try to define it, and things get a bit fuzzy:\nIs it about the altitude? The number of switchbacks? Does it have to cross a canton? A border? Do we need to see some snow, even in summer? And does it still count if the top isn’t really a “peak”, but more like a soggy meadow with a bus stop? Turns out: There are definitions. But they’re blurry.\nThe one I chose (for this project at least) goes something like this:\nA pass road is a rideable route that crosses a mountain ridge at its lowest practical point and connects two valleys.\nIn other words: It’s not about how high you climb, but where you cross.\nAnd there’s a deeper explanation behind it.\nThe young Rhone, fresh from its source\rWhen you cross a pass, you don’t just change valleys. You also cross watersheds, language regions, cultural peculiarities, and micro-climates. And sometimes, the cheese tastes completely different.\nSo crossing a pass has something of an initiation rite with the topology you’re moving through. What defines a pass is less about altitude, and more about function and transformation.\nLet’s define: The label “Pass” isn’t tied to a specific height.\nIt’s not about numbers. It’s about crossing, connection, terrain – and cultural as well as mental expansion.\nSo with that in mind, I began digging.\nScraping for clarity I quickly found a cohesive and regularly updated list provided by the Swiss Touring Club (TCS) - a solid collection of 77 key mountain passes.\nTo extract the data, I wrote a custom scraper using Python and BeautifulSoup.\nIt crawled through the page structure and pulled in names, altitudes, routes, distances, and metadata like gradient, winter status, and whether there’s a restaurant or an EV charging station at the top.\nI won’t publish the full scraper here, but the idea is simple:\nOpen the saved HTML file Loop through each pass block Parse and clean the relevant fields Export everything to a CSV file for further analysis That’s it.\nbuilding the dataset\rCleaning and arranging (Insert image of the cleaned table here)\nThe raw list was almost perfect, but still needed a bit of cleaning.\nI used Excel formulas like =TRIM(CLEAN(B2)) to get rid of weird spacing or invisible characters. Some fields were merged and had to be split using Power Query.\nI also had to standardize all numerical values:\nDistances, gradients, and altitudes were converted into float format, because Python treats numbers differently based on their type.\nA string is just a piece of text. Even if it looks like a number.\nFor example, \"8,5\" (with a comma) is not a valid number in Python, it’s treated as a string because of the comma instead of a dot, which Python doesn’t recognize as a decimal separator.\nSo while \"8,5\" might mean eight point five to a human, to Python it’s just a text label, like \"apple\" or \"hello\".\nTo use it in calculations, it first has to be cleaned and converted into a proper number format, like 8.5.\nSo before I could analyze anything, I had to replace commas with dots (8,5 → 8.5) and drop anything that couldn’t be converted cleanly.\nIt’s a small step. But without it, you’re basically comparing apples and strings. And funny enough, this was one of the first things I learned when starting with Python.\nAfter cleaning and exporting the data, I loaded it into a simple table and started checking for outliers. One or two passes had gradients over 25% – which didn’t feel right. Some had distances of “99 km” that were clearly a typo. Where necessary, I fixed them manually.\nbuilding the dataset\rFrom table (csv) to terrain (gpx) Once the cleaned CSV was ready, I moved on to the next step:\nbuilding every route manually in Komoot.\nI’ve built hundreds of GPS tracks over the years, and I pay a lot of attention to clean route design.\nMy routes always take multiple parameters into consideration.\nEspecially when planning off-road (which wasn’t the case here), I usually incorporate practical tweaks, like avoiding traffic-heavy roads, passing through supermarkets or gas stations to refill calories, and choosing more scenic alternatives when available.\nSo with that background, I followed a few simple rules for the mountain pass set:\nFirst, I hand-picked 50 out of the 77 passes provided in the dataset. Mostly the highest and most iconic ones.\nIf a route went through long tunnels or busy highways, I picked the alternative - usually a quieter, paved road. Because beauty and safety matter.\nIf there was a classic segment - like the old north ramp at Gotthard, a historic cobbled postal road - I chose that for full authenticity.\nI tried to connect the routes from train station to train station, or church to church, or bridge to bridge - to give them a sense of cohesion. A kind of narrative logic.\nIt took a while. 😅 But in the end, every route had a soul.\nVitor pushing watts on the northern ramp of Gotthard Pass\rBuilding a GPX-Stats-Extractor While the original TCS data gave a good overview to start building in Komoot,\nthe dataset had to be updated with the real distance and the actual elevation gain.\nTherefore, I built a Jupyter Notebook called “GPX Stats Extractor.”\nLoading Libraries: import os import csv import glob import gpxpy from geopy.distance import geodesic # Checking if all the libraries imported successfully or not print(\"Imported Successfully!\")\rAnalyze a single GPX file and extract elevation, distance \u0026 gradients: def analyze_gpx_track(gpx_file): with open(gpx_file, 'r', encoding='utf-8') as f: gpx = gpxpy.parse(f) filename = os.path.basename(gpx_file) points = [] for track in gpx.tracks: for segment in track.segments: for point in segment.points: if point.elevation is not None: points.append((point.latitude, point.longitude, point.elevation)) if not points: print(f\"No elevation data in {filename}\") return { 'name': filename, 'elevation': None, 'distance': None, 'max_grade': None, 'avg_grade': None } elevations = [p[2] for p in points] highest_elevation = max(elevations) total_distance_km = 0 gradients = [] for i in range(1, len(points)): p1 = (points[i-1][0], points[i-1][1]) p2 = (points[i][0], points[i][1]) dist_km = geodesic(p1, p2).kilometers dist_m = dist_km * 1000 if dist_m \u003c 1: continue total_distance_km += dist_km elevation_diff = points[i][2] - points[i-1][2] if dist_m \u003e= 5: grade = (elevation_diff / dist_m) * 100 if abs(grade) \u003c= 30: gradients.append(grade) uphill = [g for g in gradients if g \u003e 0] max_grade = max(uphill) if uphill else 0 avg_grade = sum(uphill) / len(uphill) if uphill else 0 return { 'name': filename, 'elevation': round(highest_elevation, 1), 'distance': round(total_distance_km, 2), 'max_grade': round(max_grade, 1), 'avg_grade': round(avg_grade, 1) } Analyze all GPX files in a folder and export results to CSV: def analyze_all_gpx_files(folder): results = [] files = glob.glob(os.path.join(folder, '*.gpx')) for file in files: print(f\"🔍 Analyzing: {os.path.basename(file)}\") try: result = analyze_gpx_track(file) results.append(result) except Exception as e: print(f\"Error in {file}: {e}\") output_file = os.path.join(folder, 'track_analysis.csv') with open(output_file, 'w', newline='', encoding='utf-8-sig') as f: writer = csv.writer(f, delimiter=';', quoting=csv.QUOTE_MINIMAL) writer.writerow(['File', 'Highest Point (m)', 'Distance (km)', 'Max Grade (%)', 'Avg Grade (%)']) for entry in results: writer.writerow([ entry['name'], entry['elevation'] if entry['elevation'] is not None else '', entry['distance'] if entry['distance'] is not None else '', entry['max_grade'] if entry['max_grade'] is not None else '', entry['avg_grade'] if entry['avg_grade'] is not None else '' ]) print(f\"\\n Analysis complete – File saved: {output_file}\") Trigger the analysis with the local GPX folder path: folder_path = r\"folder\\gpx\" analyze_all_gpx_files(folder_path) Once those values were extracted from the GPX files, the table was ready for visualization.\n👉 Download CSV file\nThorben climbing through the north ramp at Gotthard\rIn the next post, I’ll take you through the first visualizations –\nand show what data can reveal when you look at mountains not just with legs, but with code.\n",
+  "wordCount" : "1457",
+  "inLanguage": "en",
+  "datePublished": "2025-04-10T07:11:51+02:00",
+  "dateModified": "2025-04-10T07:11:51+02:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://fabrikler.github.io/posts/building-a-dataset/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "carlosmeyer",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://fabrikler.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+  <script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+      document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+      document.body.classList.remove('dark');
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      document.body.classList.add('dark');
+    }
+  </script>
+
+<header class="site-header">
+    <div class="site-container">
+      <div class="site-header-inner">
+        <a class="site-title" href="https://fabrikler.github.io/" accesskey="h" title="carlosmeyer (Alt + H)">
+          carlosmeyer
+        </a>
+      </div>
+    </div>
+  </header>
+  
+<main class="main">
+
+<div class="site-container">
+
+  <article class="post-single">
+    <header class="post-header">
+      
+      <h1 class="post-title entry-hint-parent">
+        Building a Dataset — 002
+      </h1>
+      <div class="post-meta"><span title='2025-04-10 07:11:51 +0200 CEST'>April 10, 2025</span>
+
+</div>
+    </header> 
+    <div class="post-content"><figure class="custom-caption" style="margin: 2rem auto; text-align: center; max-width: 100%;">
+  <img 
+    src="/img/001/mountain-passes-overview-009.jpg" 
+    alt="Festka Bike riding in the Alps" 
+    style="width: 100%; height: auto;" 
+  >
+  
+    <figcaption>Festka Frameset with Obermayer Wheels at Gotthard Tremola</figcaption>
+  
+</figure>
+
+<p>If you ride mountain passes long enough, the question is no longer <em>if</em> you’ll ride again, but <em>which one</em>. And that’s exactly where the problem begins.</p>
+<p>Performance isn’t everything in cycling.</p>
+<p>Climbing - as we call it - has something mystical to it. Almost ritualistic.</p>
+<p>Up in the mountains, while your breathing gets heavier and your cadence slower, you can slip into altered states. Some say it’s just oxygen deprivation. But hey, the high is kind of nice.</p>
+<p>The mountains are also a bit like forests:</p>
+<p>In Japan, they have a concept for this: <strong><a href="https://en.wikipedia.org/wiki/Shinrin-yoku" target="_blank" rel="noopener">Shinrin Yoku</a></strong>, or <em>forest bathing</em>.</p>
+<p>It’s the art of immersing yourself in nature with all senses. Not as a workout, but as therapy.</p>
+<p>That’s exactly what climbing does. <strong>Cycling is a tool of awareness.</strong></p>
+<p>But before we talk about epic climbs and becoming some sort of monk,<br>
+let’s start with the most basic question:</p>
+<p>What exactly is a pass?</p>
+<figure class="custom-caption" style="margin: 2rem auto; text-align: center; max-width: 100%;">
+  <img 
+    src="/img/001/mountain-passes-overview-010.jpg" 
+    alt="Serpentines at Gotthard Tremola" 
+    style="width: 100%; height: auto;" 
+  >
+  
+    <figcaption>Cobble Serpentines at Gotthard</figcaption>
+  
+</figure>
+
+<h3 id="the-messy-truth-behind-beautiful-roads">The messy truth behind beautiful roads<a hidden class="anchor" aria-hidden="true" href="#the-messy-truth-behind-beautiful-roads">#</a></h3>
+<p>Most cyclists have a gut feeling for what counts as a real pass.
+But try to define it, and things get a bit fuzzy:</p>
+<ul>
+<li>Is it about the altitude?</li>
+<li>The number of switchbacks?</li>
+<li>Does it have to cross a canton? A border?</li>
+<li>Do we need to see some snow, even in summer?</li>
+<li>And does it still count if the top isn’t really a &ldquo;peak&rdquo;, but more like a soggy meadow with a bus stop?</li>
+</ul>
+<p>Turns out: There <em>are</em> definitions. But they’re blurry.</p>
+<p>The one I chose (for this project at least) goes something like this:</p>
+<p><em>A <strong>pass road</strong> is a rideable route that crosses a mountain ridge at its lowest practical point and connects two valleys.</em></p>
+<p>In other words: It’s not about how <em>high</em> you climb, but <em>where</em> you cross.</p>
+<p>And there’s a deeper explanation behind it.</p>
+<figure class="custom-caption" style="margin: 2rem auto; text-align: center; max-width: 100%;">
+  <img 
+    src="/img/001/mountain-passes-overview-005.jpg" 
+    alt="Source of the young Rhone River near Rhone Glacier" 
+    style="width: 100%; height: auto;" 
+  >
+  
+    <figcaption>The young Rhone, fresh from its source</figcaption>
+  
+</figure>
+
+<p>When you cross a pass, you don’t just change valleys. You also cross watersheds, language regions, cultural peculiarities, and micro-climates. And sometimes, the cheese tastes completely different.</p>
+<p>So crossing a pass has something of an initiation rite with the topology you’re moving through. What defines a pass is less about altitude, and more about <strong>function</strong> and transformation.</p>
+<p>Let&rsquo;s define: The label <em>“Pass”</em> isn’t tied to a specific height.<br>
+It’s not about numbers. It’s about <strong>crossing</strong>, <strong>connection</strong>, <strong>terrain</strong> – and cultural as well as mental expansion.</p>
+<p>So with that in mind, I began digging.</p>
+<h3 id="scraping-for-clarity">Scraping for clarity<a hidden class="anchor" aria-hidden="true" href="#scraping-for-clarity">#</a></h3>
+<p>I quickly found a cohesive and regularly updated list provided by the Swiss Touring Club (TCS) -
+a solid collection of <strong><a href="https://www.tcs.ch/de/tools/verkehrsinfo-verkehrslage/paesse-in-der-schweiz.php" target="_blank" rel="noopener">77 key mountain passes</a></strong></em>.</p>
+<p>To extract the data, I wrote a custom scraper using Python and <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/" target="_blank" rel="noopener">BeautifulSoup</a>.</p>
+<p>It crawled through the page structure and pulled in names, altitudes, routes, distances, and metadata like gradient, winter status, and whether there’s a restaurant or an EV charging station at the top.</p>
+<p>I won’t publish the full scraper here, but the idea is simple:</p>
+<ul>
+<li>Open the saved HTML file</li>
+<li>Loop through each pass block</li>
+<li>Parse and clean the relevant fields</li>
+<li>Export everything to a CSV file for further analysis</li>
+</ul>
+<p>That&rsquo;s it.</p>
+<figure class="custom-caption" style="margin: 2rem auto; text-align: center; max-width: 100%;">
+  <img 
+    src="/img/002/paesse-first-csv-overview-002.png" 
+    alt="csv snippet of swiss mountain peaks" 
+    style="width: 100%; height: auto;" 
+  >
+  
+    <figcaption>building the dataset</figcaption>
+  
+</figure>
+
+<h3 id="cleaning-and-arranging">Cleaning and arranging<a hidden class="anchor" aria-hidden="true" href="#cleaning-and-arranging">#</a></h3>
+<p><em>(Insert image of the cleaned table here)</em></p>
+<p>The raw list was almost perfect, but still needed a bit of cleaning.</p>
+<p>I used Excel formulas like <code>=TRIM(CLEAN(B2))</code> to get rid of weird spacing or invisible characters. Some fields were merged and had to be split using Power Query.</p>
+<p>I also had to standardize all numerical values:</p>
+<p>Distances, gradients, and altitudes were converted into float format, because Python treats numbers differently based on their type.</p>
+<div class="prologue-box prologue-box--transparent">
+  <p>A <strong>string</strong> is just a piece of text. Even if it <em>looks</em> like a number.<br>
+For example, <code>&quot;8,5&quot;</code> (with a comma) is not a valid number in Python, it&rsquo;s treated as a string because of the <strong>comma instead of a dot</strong>, which Python doesn’t recognize as a decimal separator.</p>
+<p>So while <code>&quot;8,5&quot;</code> might mean <em>eight point five</em> to a human, to Python it&rsquo;s just a text label, like <code>&quot;apple&quot;</code> or <code>&quot;hello&quot;</code>.</p>
+<p>To use it in calculations, it first has to be cleaned and converted into a proper number format, like <code>8.5</code>.</p>
+</div>
+<p>So before I could analyze anything, I had to replace commas with dots (<code>8,5</code> → <code>8.5</code>) and drop anything that couldn&rsquo;t be converted cleanly.</p>
+<p>It’s a small step. But without it, you’re basically comparing apples and strings.
+And funny enough, this was one of the first things I learned when starting with Python.</p>
+<p>After cleaning and exporting the data, I loaded it into a simple table and started checking for outliers. One or two passes had gradients over 25% – which didn’t feel right. Some had distances of &ldquo;99 km&rdquo; that were clearly a typo. Where necessary, I fixed them manually.</p>
+<figure class="custom-caption" style="margin: 2rem auto; text-align: center; max-width: 100%;">
+  <img 
+    src="/img/002/komoot-overview-001.png" 
+    alt="csv snippet of swiss mountain peaks" 
+    style="width: 100%; height: auto;" 
+  >
+  
+    <figcaption>building the dataset</figcaption>
+  
+</figure>
+
+<h3 id="from-table-csv-to-terrain-gpx">From table (csv) to terrain (gpx)<a hidden class="anchor" aria-hidden="true" href="#from-table-csv-to-terrain-gpx">#</a></h3>
+<p>Once the cleaned CSV was ready, I moved on to the next step:<br>
+<strong>building every route manually in Komoot.</strong></p>
+<p>I’ve built hundreds of GPS tracks over the years, and I pay a lot of attention to clean route design.</p>
+<p>My routes always take multiple parameters into consideration.</p>
+<p>Especially when planning off-road (which wasn’t the case here), I usually incorporate practical tweaks, like avoiding traffic-heavy roads, passing through supermarkets or gas stations to refill calories, and choosing more scenic alternatives when available.</p>
+<p>So with that background, I followed a few simple rules for the mountain pass set:</p>
+<ul>
+<li>
+<p>First, I hand-picked <strong>50 out of the 77 passes</strong> provided in the dataset. Mostly the highest and most iconic ones.</p>
+</li>
+<li>
+<p>If a route went through long tunnels or busy highways, I picked the alternative - usually a quieter, paved road. Because beauty and safety matter.</p>
+</li>
+<li>
+<p>If there was a classic segment - like the old north ramp at Gotthard, a historic cobbled postal road - I chose that for full authenticity.</p>
+</li>
+<li>
+<p>I tried to connect the routes <strong>from train station to train station</strong>, or <strong>church to church</strong>, or <strong>bridge to bridge</strong> - to give them a sense of cohesion. A kind of narrative logic.</p>
+</li>
+</ul>
+<p>It took a while. 😅
+But in the end, every route had a soul.</p>
+<figure class="custom-caption" style="margin: 2rem auto; text-align: center; max-width: 100%;">
+  <img 
+    src="/img/001/mountain-passes-overview-004.jpg" 
+    alt="Cyclist Vitor climbing the northern ramp of Gotthard Pass" 
+    style="width: 100%; height: auto;" 
+  >
+  
+    <figcaption>Vitor pushing watts on the northern ramp of Gotthard Pass</figcaption>
+  
+</figure>
+
+<h3 id="building-a-gpx-stats-extractor">Building a GPX-Stats-Extractor<a hidden class="anchor" aria-hidden="true" href="#building-a-gpx-stats-extractor">#</a></h3>
+<p>While the original TCS data gave a good overview to start building in Komoot,<br>
+the dataset had to be updated with the <strong>real distance</strong> and the <strong>actual elevation gain</strong>.</p>
+<p>Therefore, I built a Jupyter Notebook called “GPX Stats Extractor.”</p>
+<details>
+  <summary>Loading Libraries:</summary>  
+
+
+
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> os
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> csv
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> glob
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> gpxpy
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> geopy.distance <span style="color:#f92672">import</span> geodesic
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Checking if all the libraries imported successfully or not</span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Imported Successfully!&#34;</span>)</span></span></code></pre></div>
+
+</details>
+<br>
+<details>
+  <summary>Analyze a single GPX file and extract elevation, distance & gradients:</summary>  
+
+
+
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">analyze_gpx_track</span>(gpx_file):
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">with</span> open(gpx_file, <span style="color:#e6db74">&#39;r&#39;</span>, encoding<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;utf-8&#39;</span>) <span style="color:#66d9ef">as</span> f:
+</span></span><span style="display:flex;"><span>        gpx <span style="color:#f92672">=</span> gpxpy<span style="color:#f92672">.</span>parse(f)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    filename <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>basename(gpx_file)
+</span></span><span style="display:flex;"><span>    points <span style="color:#f92672">=</span> []
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> track <span style="color:#f92672">in</span> gpx<span style="color:#f92672">.</span>tracks:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> segment <span style="color:#f92672">in</span> track<span style="color:#f92672">.</span>segments:
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> point <span style="color:#f92672">in</span> segment<span style="color:#f92672">.</span>points:
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> point<span style="color:#f92672">.</span>elevation <span style="color:#f92672">is</span> <span style="color:#f92672">not</span> <span style="color:#66d9ef">None</span>:
+</span></span><span style="display:flex;"><span>                    points<span style="color:#f92672">.</span>append((point<span style="color:#f92672">.</span>latitude, point<span style="color:#f92672">.</span>longitude, point<span style="color:#f92672">.</span>elevation))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> points:
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;No elevation data in </span><span style="color:#e6db74">{</span>filename<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> {
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#39;name&#39;</span>: filename,
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#39;elevation&#39;</span>: <span style="color:#66d9ef">None</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#39;distance&#39;</span>: <span style="color:#66d9ef">None</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#39;max_grade&#39;</span>: <span style="color:#66d9ef">None</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#39;avg_grade&#39;</span>: <span style="color:#66d9ef">None</span>
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    elevations <span style="color:#f92672">=</span> [p[<span style="color:#ae81ff">2</span>] <span style="color:#66d9ef">for</span> p <span style="color:#f92672">in</span> points]
+</span></span><span style="display:flex;"><span>    highest_elevation <span style="color:#f92672">=</span> max(elevations)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    total_distance_km <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>    gradients <span style="color:#f92672">=</span> []
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1</span>, len(points)):
+</span></span><span style="display:flex;"><span>        p1 <span style="color:#f92672">=</span> (points[i<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">0</span>], points[i<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">1</span>])
+</span></span><span style="display:flex;"><span>        p2 <span style="color:#f92672">=</span> (points[i][<span style="color:#ae81ff">0</span>], points[i][<span style="color:#ae81ff">1</span>])
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        dist_km <span style="color:#f92672">=</span> geodesic(p1, p2)<span style="color:#f92672">.</span>kilometers
+</span></span><span style="display:flex;"><span>        dist_m <span style="color:#f92672">=</span> dist_km <span style="color:#f92672">*</span> <span style="color:#ae81ff">1000</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> dist_m <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">1</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">continue</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        total_distance_km <span style="color:#f92672">+=</span> dist_km
+</span></span><span style="display:flex;"><span>        elevation_diff <span style="color:#f92672">=</span> points[i][<span style="color:#ae81ff">2</span>] <span style="color:#f92672">-</span> points[i<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">2</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> dist_m <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">5</span>:
+</span></span><span style="display:flex;"><span>            grade <span style="color:#f92672">=</span> (elevation_diff <span style="color:#f92672">/</span> dist_m) <span style="color:#f92672">*</span> <span style="color:#ae81ff">100</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> abs(grade) <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">30</span>:
+</span></span><span style="display:flex;"><span>                gradients<span style="color:#f92672">.</span>append(grade)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    uphill <span style="color:#f92672">=</span> [g <span style="color:#66d9ef">for</span> g <span style="color:#f92672">in</span> gradients <span style="color:#66d9ef">if</span> g <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span>]
+</span></span><span style="display:flex;"><span>    max_grade <span style="color:#f92672">=</span> max(uphill) <span style="color:#66d9ef">if</span> uphill <span style="color:#66d9ef">else</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>    avg_grade <span style="color:#f92672">=</span> sum(uphill) <span style="color:#f92672">/</span> len(uphill) <span style="color:#66d9ef">if</span> uphill <span style="color:#66d9ef">else</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;name&#39;</span>: filename,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;elevation&#39;</span>: round(highest_elevation, <span style="color:#ae81ff">1</span>),
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;distance&#39;</span>: round(total_distance_km, <span style="color:#ae81ff">2</span>),
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;max_grade&#39;</span>: round(max_grade, <span style="color:#ae81ff">1</span>),
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;avg_grade&#39;</span>: round(avg_grade, <span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div>
+
+</details>
+<br>
+<details>
+  <summary>Analyze all GPX files in a folder and export results to CSV:</summary>  
+
+
+
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">analyze_all_gpx_files</span>(folder):
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    results <span style="color:#f92672">=</span> []
+</span></span><span style="display:flex;"><span>    files <span style="color:#f92672">=</span> glob<span style="color:#f92672">.</span>glob(os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(folder, <span style="color:#e6db74">&#39;*.gpx&#39;</span>))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> file <span style="color:#f92672">in</span> files:
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;🔍 Analyzing: </span><span style="color:#e6db74">{</span>os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>basename(file)<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">try</span>:
+</span></span><span style="display:flex;"><span>            result <span style="color:#f92672">=</span> analyze_gpx_track(file)
+</span></span><span style="display:flex;"><span>            results<span style="color:#f92672">.</span>append(result)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">except</span> <span style="color:#a6e22e">Exception</span> <span style="color:#66d9ef">as</span> e:
+</span></span><span style="display:flex;"><span>            print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Error in </span><span style="color:#e6db74">{</span>file<span style="color:#e6db74">}</span><span style="color:#e6db74">: </span><span style="color:#e6db74">{</span>e<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    output_file <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(folder, <span style="color:#e6db74">&#39;track_analysis.csv&#39;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">with</span> open(output_file, <span style="color:#e6db74">&#39;w&#39;</span>, newline<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>, encoding<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;utf-8-sig&#39;</span>) <span style="color:#66d9ef">as</span> f:
+</span></span><span style="display:flex;"><span>        writer <span style="color:#f92672">=</span> csv<span style="color:#f92672">.</span>writer(f, delimiter<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;;&#39;</span>, quoting<span style="color:#f92672">=</span>csv<span style="color:#f92672">.</span>QUOTE_MINIMAL)
+</span></span><span style="display:flex;"><span>        writer<span style="color:#f92672">.</span>writerow([<span style="color:#e6db74">&#39;File&#39;</span>, <span style="color:#e6db74">&#39;Highest Point (m)&#39;</span>, <span style="color:#e6db74">&#39;Distance (km)&#39;</span>, <span style="color:#e6db74">&#39;Max Grade (%)&#39;</span>, <span style="color:#e6db74">&#39;Avg Grade (%)&#39;</span>])
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> entry <span style="color:#f92672">in</span> results:
+</span></span><span style="display:flex;"><span>            writer<span style="color:#f92672">.</span>writerow([
+</span></span><span style="display:flex;"><span>                entry[<span style="color:#e6db74">&#39;name&#39;</span>],
+</span></span><span style="display:flex;"><span>                entry[<span style="color:#e6db74">&#39;elevation&#39;</span>] <span style="color:#66d9ef">if</span> entry[<span style="color:#e6db74">&#39;elevation&#39;</span>] <span style="color:#f92672">is</span> <span style="color:#f92672">not</span> <span style="color:#66d9ef">None</span> <span style="color:#66d9ef">else</span> <span style="color:#e6db74">&#39;&#39;</span>,
+</span></span><span style="display:flex;"><span>                entry[<span style="color:#e6db74">&#39;distance&#39;</span>] <span style="color:#66d9ef">if</span> entry[<span style="color:#e6db74">&#39;distance&#39;</span>] <span style="color:#f92672">is</span> <span style="color:#f92672">not</span> <span style="color:#66d9ef">None</span> <span style="color:#66d9ef">else</span> <span style="color:#e6db74">&#39;&#39;</span>,
+</span></span><span style="display:flex;"><span>                entry[<span style="color:#e6db74">&#39;max_grade&#39;</span>] <span style="color:#66d9ef">if</span> entry[<span style="color:#e6db74">&#39;max_grade&#39;</span>] <span style="color:#f92672">is</span> <span style="color:#f92672">not</span> <span style="color:#66d9ef">None</span> <span style="color:#66d9ef">else</span> <span style="color:#e6db74">&#39;&#39;</span>,
+</span></span><span style="display:flex;"><span>                entry[<span style="color:#e6db74">&#39;avg_grade&#39;</span>] <span style="color:#66d9ef">if</span> entry[<span style="color:#e6db74">&#39;avg_grade&#39;</span>] <span style="color:#f92672">is</span> <span style="color:#f92672">not</span> <span style="color:#66d9ef">None</span> <span style="color:#66d9ef">else</span> <span style="color:#e6db74">&#39;&#39;</span>
+</span></span><span style="display:flex;"><span>            ])
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74"> Analysis complete – File saved: </span><span style="color:#e6db74">{</span>output_file<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span></code></pre></div>
+
+</details>
+<br>
+<details>
+  <summary>Trigger the analysis with the local GPX folder path:</summary>  
+
+
+
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>folder_path <span style="color:#f92672">=</span> <span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;folder\gpx&#34;</span>
+</span></span><span style="display:flex;"><span>analyze_all_gpx_files(folder_path)
+</span></span></code></pre></div>
+
+</details>
+<br>
+<p>Once those values were extracted from the GPX files, the table was ready for visualization.</p>
+<p>👉 <a href="/downloads/2504_paesse.csv">Download CSV file</a></p>
+<figure class="custom-caption" style="margin: 2rem auto; text-align: center; max-width: 100%;">
+  <img 
+    src="/img/001/mountain-passes-overview-007.jpg" 
+    alt="Cyclist at Gotthardpass" 
+    style="width: 100%; height: auto;" 
+  >
+  
+    <figcaption>Thorben climbing through the north ramp at Gotthard</figcaption>
+  
+</figure>
+
+<p>In the next post, I’ll take you through the first visualizations –<br>
+and show what data can reveal when you look at mountains not just with legs, but with code.</p>
+
+
+    </div>
+
+    <footer class="post-footer">
+      <ul class="post-tags">
+      </ul>
+    </footer>
+
+  </article>
+
+</div>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 carlosmeyer — built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &amp; <a href="https://github.com/adityatelange/hugo-PaperMod/" target="_blank" rel="noopener">PaperMod</a></span> · 
+
+    <span>
+
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

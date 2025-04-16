@@ -1,4 +1,10 @@
-<figure class="custom-caption">
-  <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}">
-  <figcaption>{{ .Get "text" | safeHTML }}</figcaption>
+<figure class="custom-caption" style="margin: 2rem auto; text-align: center; max-width: {{ .Get "width" | default "100%" }};">
+  <img 
+    src="{{ .Get "src" }}" 
+    alt="{{ .Get "alt" }}" 
+    style="width: 100%; height: auto;" 
+  >
+  {{ with .Get "text" }}
+    <figcaption>{{ . | safeHTML }}</figcaption>
+  {{ end }}
 </figure>

@@ -1,0 +1,10 @@
+<p>⏳ Trying to read: code/{{ .Get 0 }}</p>
+
+{{ $file := .Get 0 }}
+{{ $md := readFile (printf "code/%s" $file) }}
+<p>✅ Content loaded:</p>
+<pre>{{ $md }}</pre>
+
+<hr>
+<p>🔁 Rendered as Markdown:</p>
+{{ $md | markdownify }}

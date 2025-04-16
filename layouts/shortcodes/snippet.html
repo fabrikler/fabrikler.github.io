@@ -1,0 +1,4 @@
+{{ $file := .Get 0 }}
+{{ $lang := .Get 1 | default "python" }}
+{{ $code := readFile (printf "assets/code/%s" $file) }}
+{{ highlight $code $lang "" }}

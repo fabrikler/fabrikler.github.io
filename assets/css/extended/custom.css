@@ -284,13 +284,15 @@ figure.custom-caption figcaption {
 .prologue-box {
   background-color: #323232;
   padding: 1.4rem;
-  border-radius: 0; /* no rounded edges */
+  border-radius: 0;
   font-style: normal;
   font-weight: 400;
   font-size: 0.9rem;
   line-height: 1.7;
-  margin-bottom: 1rem;
-  color: #A39F9C; /* light text for contrast on dark background */
+  color: #A39F9C;
+  max-width: 500px;   /* Begrenzte Breite */
+  width: 100%;        /* damit sie responsiv bleibt */
+  margin: 1.5rem auto; /* vertikaler Abstand + horizontal zentriert */
 }
 
 .prologue-box--transparent {

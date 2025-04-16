@@ -6,23 +6,65 @@
     <description>Recent content in Posts on carlosmeyer</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Apr 2025 07:11:51 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 15 Apr 2025 07:11:51 +0200</lastBuildDate>
     <atom:link href="https://fabrikler.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>My favourite animals are pandas (not the lazy bears) — 003</title>
+      <link>https://fabrikler.github.io/posts/working-with-pandas/</link>
+      <pubDate>Tue, 15 Apr 2025 07:11:51 +0200</pubDate>
+      <guid>https://fabrikler.github.io/posts/working-with-pandas/</guid>
+      <description>&lt;figure class=&#34;custom-caption&#34; style=&#34;margin: 2rem auto; text-align: center; max-width: 100%;&#34;&gt;
+  &lt;img 
+    src=&#34;https://fabrikler.github.io/img/001/mountain-passes-overview-005.jpg&#34; 
+    alt=&#34;Source of the young Rhone River near Rhone Glacier&#34; 
+    style=&#34;width: 100%; height: auto;&#34; 
+  &gt;
+  
+    &lt;figcaption&gt;The young Rhone, fresh from its source&lt;/figcaption&gt;
+  
+&lt;/figure&gt;
+
+&lt;p&gt;With my freshly scraped and cleaned CSV in hand, I started digging into &lt;a href=&#34;https://pandas.pydata.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pandas&lt;/a&gt;
+, &lt;a href=&#34;https://matplotlib.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Matplotlib&lt;/a&gt; and &lt;a href=&#34;https://seaborn.pydata.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Seaborn&lt;/a&gt; to plot my first chart.&lt;/p&gt;
+&lt;p&gt;I decided to start with a classic overview by sorting the passes by elevation.&lt;/p&gt;
+&lt;h4 id=&#34;important-note&#34;&gt;Important note&lt;/h4&gt;
+&lt;p&gt;📌 &lt;em&gt;The highest points might differ slightly from the maximum elevations listed in other sources. In most cases, the passes are shown a few meters higher elsewhere. I based my measurements on GPX data, which always refers to the highest point on the road itself, not to parking areas or viewing platforms.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Building a Dataset — 002</title>
-      <link>https://fabrikler.github.io/posts/my-second-post/</link>
+      <link>https://fabrikler.github.io/posts/building-a-dataset/</link>
       <pubDate>Thu, 10 Apr 2025 07:11:51 +0200</pubDate>
-      <guid>https://fabrikler.github.io/posts/my-second-post/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.&lt;/p&gt;</description>
+      <guid>https://fabrikler.github.io/posts/building-a-dataset/</guid>
+      <description>&lt;figure class=&#34;custom-caption&#34; style=&#34;margin: 2rem auto; text-align: center; max-width: 100%;&#34;&gt;
+  &lt;img 
+    src=&#34;https://fabrikler.github.io/img/001/mountain-passes-overview-009.jpg&#34; 
+    alt=&#34;Festka Bike riding in the Alps&#34; 
+    style=&#34;width: 100%; height: auto;&#34; 
+  &gt;
+  
+    &lt;figcaption&gt;Festka Frameset with Obermayer Wheels at Gotthard Tremola&lt;/figcaption&gt;
+  
+&lt;/figure&gt;
+
+&lt;p&gt;If you ride mountain passes long enough, the question is no longer &lt;em&gt;if&lt;/em&gt; you’ll ride again, but &lt;em&gt;which one&lt;/em&gt;. And that’s exactly where the problem begins.&lt;/p&gt;
+&lt;p&gt;Performance isn’t everything in cycling.&lt;/p&gt;
+&lt;p&gt;Climbing - as we call it - has something mystical to it. Almost ritualistic.&lt;/p&gt;
+&lt;p&gt;Up in the mountains, while your breathing gets heavier and your cadence slower, you can slip into altered states. Some say it’s just oxygen deprivation. But hey, the high is kind of nice.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Swiss Passes Smell Like Fryer Oil and Feel Like a Pilgrimage — 001</title>
       <link>https://fabrikler.github.io/posts/swiss-mountain-passes/</link>
       <pubDate>Wed, 09 Apr 2025 07:11:14 +0200</pubDate>
       <guid>https://fabrikler.github.io/posts/swiss-mountain-passes/</guid>
-      <description>&lt;figure class=&#34;custom-caption&#34;&gt;
-  &lt;img src=&#34;https://fabrikler.github.io/img/001/mountain-passes-overview-001.jpg&#34; alt=&#34;Historic cobblestone road of the Gotthard Tremola from Airolo&#34;&gt;
-  &lt;figcaption&gt;&lt;/figcaption&gt;
+      <description>&lt;figure class=&#34;custom-caption&#34; style=&#34;margin: 2rem auto; text-align: center; max-width: 100%;&#34;&gt;
+  &lt;img 
+    src=&#34;https://fabrikler.github.io/img/001/mountain-passes-overview-008.jpg&#34; 
+    alt=&#34;Landscape in rainy Ticino&#34; 
+    style=&#34;width: 100%; height: auto;&#34; 
+  &gt;
+  
+    &lt;figcaption&gt;View over the moody Valle Leventina&lt;/figcaption&gt;
+  
 &lt;/figure&gt;
 
 &lt;div class=&#34;prologue-box prologue-box--transparent&#34;&gt;

@@ -1,0 +1,54 @@
+﻿nr;name;passhöhe;start_ort;start_kanton;ziel_ort;ziel_kanton;grenzübergang;länder;distanz_km;max_steigung;avg_steigung;restaurant;wintersperre;sperre_beginn;sperre_ende
+1;Umbrailpass;2492;Santa Maria;Graubünden;Bormio;Lombardia;Ja;CH, I;31.48;13.2;8.5;Ja;Ja;11;4
+2;Nufenenpass;2469;Ulrichen;Wallis;Airolo;Ticino;Nein;CH;37.06;16.8;6;Ja;Ja;11;6
+3;Grosser St. Bernhardpass;2461;"Martigny
+       ";Wallis;Aosta;Valle d’Aosta;Ja;CH, I;77.8;16.8;4.7;Ja;Ja;10;6
+4;Furkapass;2416;Oberwald;Wallis;Andermatt;Uri;Nein;CH;37.68;12.2;6.3;Ja;Ja;11;6
+5;Flüelapass;2379;Davos;Graubünden;Susch;Graubünden;Nein;CH;29.02;14;7.7;Ja;Ja;1;5
+6;Passo del Bernina;2316;St. Moritz;Graubünden;Tirano;Lombardia;Ja;CH, I;54.25;14.4;6.5;Ja;Nein;;
+7;Forcola di Livigno;2301;"Livigno
+       ";Lombardia;La Motta;Graubünden;Ja;CH, I;18.14;9.7;3.4;Ja;Ja;11;6
+8;Albulapass;2308;Filisur;Graubünden;La-Punt;Graubünden;Nein;CH;31.04;17;6.6;Ja;Ja;12;5
+9;Julierpass;2277;Tiefencastel;Graubünden;Silvaplana;Graubünden;Nein;CH;43.2;14.6;5.5;Ja;Nein;;
+10;Col du Sanetsch;2244;Conthey;Wallis;Sanetsch Stausee;Wallis;Nein;CH;31.62;15.9;7.3;Ja;Ja;10;6
+11;Sustenpass;2227;Innertkirchen;Bern;Wassen;Uri;Nein;CH;45.65;17.6;6.1;Ja;Ja;11;6
+12;Grimselpass;2156;Innertkirchen;Bern;Ulrichen;Wallis;Nein;CH;43.36;17.5;6.2;Ja;Ja;11;6
+13;Ofenpass;2142;Zernez;Graubünden;Santa Maria;Graubünden;Nein;CH;35.33;11.8;5.8;Ja;Nein;;
+14;Splügenpass;2108;Splügen;Graubünden;Chiavenna;Lombardia;Ja;CH, I;39.47;16.4;6.6;Ja;Ja;11;5
+15;Gotthardpass;2103;Andermatt;Uri;Airolo;Ticino;Nein;CH;25.61;17.7;6.9;Ja;Ja;11;5
+16;San Bernardinopass;2065;Hinterrhein;Graubünden;San Bernardino;Graubünden;Nein;CH;34.33;14.3;6.9;Ja;Ja;11;5
+17;Oberalppass;2037;Andermatt;Uri;Sedrun;Graubünden;Nein;CH;22.98;12.4;5.8;Ja;Ja;12;4
+18;Simplonpass;2005;Brig;Wallis;Domodossola;Piemont;Ja;CH, I;61.36;13.4;4.8;Ja;Nein;;
+19;Klausenpass;1949;Altdorf;Uri;Linthal;Glarus;Nein;CH;46.95;12.2;6.1;Ja;Ja;11;5
+20;Lukmanierpass;1927;Disentis/Mustér;Graubünden;Biasca;Ticino;Nein;CH;60.22;14.8;4.3;Ja;Nein;;
+21;Malojapass;1813;Chiavenna;Lombardia;Silvaplana;Graubünden;Nein;CH;43.15;16.5;4.9;Ja;Nein;;
+22;Col de la Croix;1771;Bex;Vaud;Les Diablerets;Vaud;Nein;CH;33.35;16.7;5.9;Ja;Ja;11;5
+23;Col du Lein;1679;Saxon;Wallis;Sembrancher;Wallis;Nein;CH;27.02;17.5;8.6;Ja;Ja;11;5
+24;Wolfgangpass;1628;Klosters;Graubünden;Davos;Graubünden;Nein;CH;14.92;13.2;5.6;Ja;Nein;;
+25;Glaubenbüelenpass;1612;Sörenberg;Luzern;Giswil;Obwalden;Nein;CH;21.12;15.2;8.5;Ja;Ja;11;5
+26;Gurnigelpass;1598;Riggisberg;Bern;Plaffeien;Fribourg;Nein;CH;34.06;12.9;6.6;Ja;Nein;;
+27;Pragelpass;1557;Muaotathal;Schwyz;Glarus;Glarus;Nein;CH;33.73;15.8;6.8;Ja;Ja;11;6
+28;Lenzerheidepass;1546;Chur;Graubünden;Tiefencastel;Graubünden;Nein;CH;27.94;13.2;6.4;Ja;Nein;;
+29;Col du Pillon;1554;Aigle;Vaud;Gstaad;Bern;Nein;CH;41.13;15.8;4.8;Ja;Nein;;
+30;Glaubenbergpass;1539;Entlebuch;Luzern;Sarnen;Obwalden;Nein;CH;30.66;12.3;6.4;Ja;Ja;11;4
+31;La Forclaz;1518;Martigny;Wallis;Le Châtelard;Wallis;Nein;CH;22.96;17.7;7.2;Ja;Nein;;
+32;Jaunpass;1507;Broc;Fribourg;Boltingen;Bern;Nein;CH;33.55;15.3;4.9;Ja;Nein;;
+33;Chasseral;1586;"St. Imier
+       ";Bern;Nods;Bern;Nein;CH;25.15;11.7;5.9;Ja;Ja;12;4
+34;Col des Montets;1519;Chamonix-Mont-Blanc;Auvergne-Rhône-Alpes;Martigny;Wallis;Ja;CH, F;39.91;20.5;4.6;Ja;Nein;;
+35;Ächerlipass;1447;Sarnen;Obwalden;Dallerwil;Nidwalden;Nein;CH;22.53;17;8.4;Ja;Ja;12;4
+36;Col du Marchairuz;1440;Le Brassus;Vaud;Bière;Vaud;Nein;CH;18.02;11.4;7.3;Ja;Nein;;
+37;Col des Mosses;1445;Aigle;Vaud;Chateau-d'Oex;Vaud;Nein;CH;34.02;14;5.2;Ja;Nein;;
+38;Col des Planches;1403;Martigny;Wallis;Sembrancher;Wallis;Nein;CH;21.74;15.4;6.8;Ja;Nein;;
+39;Ibergereggpass;1394;Schwyz;Schwyz;Oberiberg;Schwyz;Nein;CH;16.28;13.2;8;Ja;Nein;;
+40;Pas de Morgins;1376;Châtel;Haute-Savoie;Monthey;Wallis;Ja;CH, F;19.25;11.3;6;Ja;Nein;;
+41;Schwägalppass;1294;Neu St. Johann;St. Gallen;Urnäsch;Appenzell Ausserrhoden;Nein;CH;21.95;11.2;4.6;Ja;Nein;;
+42;Vue-des-Alpes;1279;Neuenburg;Neuchâtel;La Chaux-de-Fonds;Neuchâtel;Nein;CH;22.84;11.8;5.8;Ja;Nein;;
+43;Weissensteinpass;1262;Oberdorf;Solothurn;Gänsbrunnen;Solothurn;Nein;CH;11.53;22.5;11;Ja;Ja;11;3
+44;Saanenmöser Pass;1274;Zweisimmen;Bern;Saanen;Bern;Nein;CH;13.38;9.1;3.9;Ja;Nein;;
+45;Col de la Givrine;1227;Morez;Département Jura;Nyon;Vaud;Ja;CH, F;33.21;11.3;4.4;Nein;Nein;;
+46;Mont-Crosin;1223;St. Imier;Bern;Tramelan;Bern;Nein;CH;12.32;12;6.9;Ja;Nein;;
+47;Satteleggpass;1179;Einsiedeln;Schwyz;Siebnen;Schwyz;Nein;CH;22.28;10.9;5;Ja;Nein;;
+48;Col du Mollendruz;1179;Le Pont;Vaud;L'Isle;Vaud;Nein;CH;14.79;8.3;5;Nein;Nein;;
+49;La Tourne;1165;Neuchâtel;Neuchâtel;Les Ponts de Martel;Neuchâtel;Nein;CH;19.76;13.3;5.5;Ja;Nein;;
+50;Schallenbergpass;1159;Langnau im Emmental;Bern;Thun;Bern;Nein;CH;48.71;10.3;2.5;Ja;Nein;;

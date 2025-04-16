@@ -4,8 +4,7 @@ draft: false
 title: 'Swiss Passes Smell Like Fryer Oil and Feel Like a Pilgrimage — 001'
 ---
 
-{{< caption src="/img/001/mountain-passes-overview-001.jpg" alt="Historic cobblestone road of the Gotthard Tremola from Airolo" >}}
-
+{{< caption src="/img/001/mountain-passes-overview-008.jpg" alt="Landscape in rainy Ticino" text="View over the moody Valle Leventina" >}}
 
 {{< prologue-transparent >}}
 _Most dev stories start at a desk.
@@ -31,7 +30,7 @@ They’re places of glaciers, springs, and watersheds. Places where borders and 
 A mountain pass is also a kind of anthropological study. Up on the peak you’ll find people on vintage bikes, sleepy tour groups, classic car lovers, petrolheads, hikers, influencers, YouTubers, geologists, birdwatchers.. and a wide range of professional and less-than-professional picnickers. Every now and then, someone stumbles out of a car mid-serpentine because their stomach just can’t take it anymore.
 
 
-{{< caption src="/img/001/mountain-passes-overview-002.jpg" alt="Furka Pass near the Rhone Glacier and restaurant" text="Waiting for the riders at Furka Pass, near the Rhone Glacier Restaurant" >}}
+{{< caption src="/img/001/mountain-passes-overview-002.jpg" alt="Furka Pass near the Rhone Glacier and restaurant" text="Me waiting for the riders at Furka Pass, near the Rhone Glacier Restaurant" >}}
 
 
 Even as a kid, mountain passes had a certain magic for me. The roads were long, steep, and often seriously exposed. Crossing from one canton to another felt like collecting bonus points. Like a loyalty program for geography nerds (like me…).
@@ -42,8 +41,6 @@ I think the obsession came from my grandfather. A sheet metal wizard from Madrid
 
 {{< caption src="/img/001/mountain-passes-overview-003.jpg" alt="Hotel Belvédère on Furka Pass curve" text="Hotel Belvédère at Furka Pass" >}}
 
-{{< caption src="/img/001/mountain-passes-overview-004.jpg" alt="Cyclist Vitor climbing the northern ramp of Gotthard Pass" text="Vitor pushing watts on the northern ramp of Gotthard Pass" >}}
-
 
 Passes aren’t places you stay long. If you’re cycling up, you stop just briefly. Otherwise, you’ll cool down too fast. Most people just pause for a quick selfie.
 
@@ -51,4 +48,5 @@ A pass ride feels like a fresh sauna infusion.
 
 Sweat, euphoria, and bliss wrapped in a red face and the sting of metaphorical birch branch lashes. Pain and reward go hand in hand. Push too far, and you’ll end up walking your bike. Cooling off the hard way.
 
-{{< caption src="/img/001/mountain-passes-overview-005.jpg" alt="Source of the young Rhone River near Rhone Glacier" text="The young Rhone, fresh from its source" >}}
+
+{{< caption src="/img/001/mountain-passes-overview-012.jpg" alt="Stones and Signs at Furkapass" text="Stones and Signs at Furkapass" >}}

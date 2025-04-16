@@ -11,14 +11,10 @@ params:
       - "css/common/main.css"     # Main-Styles
 
 markup:
-  defaultMarkdownHandler: "goldmark"
+  defaultMarkdownHandler: goldmark
   goldmark:
     parser:
       hardWraps: true
+    renderer:
+      unsafe: true  # ← Das brauchst du!
 
-params:
-  assets:
-    customCSS:
-      - "css/extended/custom.css"
-      - "css/common/footer.css"
-      - "css/common/main.css"

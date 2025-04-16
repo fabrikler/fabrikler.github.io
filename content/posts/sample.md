@@ -4,12 +4,15 @@ draft: true
 title: 'Swiss Passes Smell Like Fryer Oil and Feel Like a Pilgrimage — 001'
 ---
 
+<iframe src="/notebooks/gpx-stats-extractor.html" width="100%" height="800px"></iframe>
+
+
 {{% prologue class="prologue-box prologue-box--transparent" %}}
 This is the transparent version of the prologue.
 {{% /prologue %}}
 
 
-{{< prologue class="prologue-box prologue-box--transparent" >}}
+{{< prologue  >}}
 
 Everything has a beginning, and my dev journey didn’t start in an office. It began in the heart of the Swiss Alps, chasing steep roads alongside professional riders, shooting bike campaigns and summer races.
 
@@ -23,6 +26,12 @@ This is the prologue to that journey.
 
 {{< caption src="/img/001/mountain-passes-overview-001.jpg" alt="Historic cobblestone road of the Gotthard Tremola from Airolo" text="The old Gotthard Road from Airolo to the peak" >}}
 
+<details>
+  <summary>📖 Read backstory</summary>
+  <p>Hier steht deine Backstory, die erst sichtbar wird, wenn man draufklickt.</p>
+  <p>Du kannst mehrere Absätze, Listen oder auch Bilder hier reinpacken.</p>
+</details>
+<br>
 
 Long climbs give me goosebumps.
 
