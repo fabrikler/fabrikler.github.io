@@ -27,10 +27,7 @@ let’s start with the most basic question:
 
 What exactly is a pass?
 
-
 {{< caption src="/img/001/mountain-passes-overview-010.jpg" alt="Serpentines at Gotthard Tremola" text="Cobble Serpentines at Gotthard" >}}
-
-
 
 ### The messy truth behind beautiful roads
 
@@ -95,17 +92,18 @@ I also had to standardize all numerical values:
 
 Distances, gradients, and altitudes were converted into float format, because Python treats numbers differently based on their type.
 
+---
 
-{{% prologue class="prologue-box prologue-box--transparent" %}}
 A **string** is just a piece of text. Even if it _looks_ like a number.  
 For example, `"8,5"` (with a comma) is not a valid number in Python, it's treated as a string because of the **comma instead of a dot**, which Python doesn’t recognize as a decimal separator.
 
 So while `"8,5"` might mean _eight point five_ to a human, to Python it's just a text label, like `"apple"` or `"hello"`.
 
 To use it in calculations, it first has to be cleaned and converted into a proper number format, like `8.5`.
-{{% /prologue %}}
 
 So before I could analyze anything, I had to replace commas with dots (`8,5` → `8.5`) and drop anything that couldn't be converted cleanly.
+
+---
 
 It’s a small step. But without it, you’re basically comparing apples and strings.
 And funny enough, this was one of the first things I learned when starting with Python.

@@ -7,7 +7,7 @@ background: "/img/001/mountain-passes-overview-008.jpg"
 
 {{< caption src="/img/001/mountain-passes-overview-008.jpg" alt="Landscape in rainy Ticino" text="View over the moody Valle Leventina" >}}
 
-{{< prologue-transparent >}}
+
 _Most dev stories start at a desk.
 Mine began by chasing steep roads in the Swiss Alps. Cyclists are among the most data-obsessed athletes out there. After hours in the saddle, we obsessed over GPS tracks, switchback angles, rim heights, VO2 max, wind direction, and glucose-to-fructose ratios. We tracked watts per kilo, lactate thresholds, tire pressure, and even our resting heart rate at night. Every gradient had a name. And the worst?
 We called them kneebreakers. That’s how I began collecting, dissecting, comparing, and mapping Switzerland’s most iconic mountain passes._
@@ -15,7 +15,6 @@ We called them kneebreakers. That’s how I began collecting, dissecting, compar
 _The numbers told a story,
 and I followed._
 
-{{< /prologue-transparent >}}
 
 {{< caption src="/img/001/mountain-passes-overview-006.jpg" alt="Cyclist Thorben on the cobblestone Tremola road at Gotthard Pass" text="Thorben riding the old Tremola road at Gotthard Pass" >}}
 

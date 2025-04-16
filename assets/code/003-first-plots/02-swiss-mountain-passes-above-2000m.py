@@ -19,12 +19,12 @@ barplot = sns.barplot(
     data=df_above_2000,
     x="passhöhe",
     y="name",
-    hue="name",  # each bar gets its own color
-    dodge=False,  # important when using hue + barplot
+    hue="name",  
+    dodge=False,  
     palette=rocket_palette,
     ax=ax,
     width=0.6,
-    legend=False  # don't show a color legend
+    legend=False  
 )
 
 # Add labels

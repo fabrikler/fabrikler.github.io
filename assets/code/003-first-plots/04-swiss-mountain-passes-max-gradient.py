@@ -19,12 +19,12 @@ barplot = sns.barplot(
     data=df_top20,
     x="max_steigung",
     y="name",
-    hue="name",  # Each bar = unique color
+    hue="name",  
     dodge=False,
     palette=rocket_palette,
     ax=ax,
     width=0.6,
-    legend=False  # Don't show color legend
+    legend=False  
 )
 
 # Add value labels

@@ -11,9 +11,9 @@ def elevation_category(m):
     if pd.isna(m):
         return "Unknown"
     elif m <= 1500:
-        return "1000–1500 m"
+        return "1000-1500 m"
     elif m <= 2000:
-        return "1500–2000 m"
+        return "1500-2000 m"
     else:
         return "above 2000 m"
 
@@ -29,8 +29,8 @@ month_map = {mo: i + 1 for i, mo in enumerate(reordered_months)}
 
 # Color palette by elevation category
 palette = {
-    "1000–1500 m": sns.color_palette("viridis", 3)[2],
-    "1500–2000 m": sns.color_palette("viridis", 3)[1],
+    "1000-1500 m": sns.color_palette("viridis", 3)[2],
+    "1500-2000 m": sns.color_palette("viridis", 3)[1],
     "above 2000 m": sns.color_palette("viridis", 3)[0]
 }
 

@@ -18,7 +18,7 @@ df["elevation_category"] = df["passhöhe"].apply(elevation_category)
 df_sorted = df.sort_values(by="passhöhe", ascending=False)
 
 # Set visual theme
-sns.set_theme(style="ticks")  # kein Grid von Seaborn automatisch
+sns.set_theme(style="ticks")  
 
 # Plot
 fig, ax = plt.subplots(figsize=(12, 10))

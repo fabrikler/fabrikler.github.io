@@ -273,13 +273,13 @@ a solid collection of <strong><a href="https://www.tcs.ch/de/tools/verkehrsinfo-
 <p>I used Excel formulas like <code>=TRIM(CLEAN(B2))</code> to get rid of weird spacing or invisible characters. Some fields were merged and had to be split using Power Query.</p>
 <p>I also had to standardize all numerical values:</p>
 <p>Distances, gradients, and altitudes were converted into float format, because Python treats numbers differently based on their type.</p>
-<div class="prologue-box prologue-box--transparent">
-  <p>A <strong>string</strong> is just a piece of text. Even if it <em>looks</em> like a number.<br>
+<hr>
+<p>A <strong>string</strong> is just a piece of text. Even if it <em>looks</em> like a number.<br>
 For example, <code>&quot;8,5&quot;</code> (with a comma) is not a valid number in Python, it&rsquo;s treated as a string because of the <strong>comma instead of a dot</strong>, which Python doesn’t recognize as a decimal separator.</p>
 <p>So while <code>&quot;8,5&quot;</code> might mean <em>eight point five</em> to a human, to Python it&rsquo;s just a text label, like <code>&quot;apple&quot;</code> or <code>&quot;hello&quot;</code>.</p>
 <p>To use it in calculations, it first has to be cleaned and converted into a proper number format, like <code>8.5</code>.</p>
-</div>
 <p>So before I could analyze anything, I had to replace commas with dots (<code>8,5</code> → <code>8.5</code>) and drop anything that couldn&rsquo;t be converted cleanly.</p>
+<hr>
 <p>It’s a small step. But without it, you’re basically comparing apples and strings.
 And funny enough, this was one of the first things I learned when starting with Python.</p>
 <p>After cleaning and exporting the data, I loaded it into a simple table and started checking for outliers. One or two passes had gradients over 25% – which didn’t feel right. Some had distances of &ldquo;99 km&rdquo; that were clearly a typo. Where necessary, I fixed them manually.</p>
