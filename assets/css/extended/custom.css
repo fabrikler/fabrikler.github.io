@@ -7,10 +7,10 @@ html, body {
   background-color: #181818 !important;
   color: #F4F3EE; 
   font-family: 'Inter', sans-serif;
-  font-weight: 400; /* Inter Light 300 */
-  font-size: 16px; /* Beispielgröße */
-  letter-spacing: 0.02em; /* Leichter Abstand */
-  line-height: 1.8; /* Gute Zeilenhöhe für Lesbarkeit */
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.8;
   font-synthesis: none;
   min-height: 100vh;
 }
@@ -20,7 +20,6 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
-
 
 /* -------------------------------
    Main-Wrapper - Umfasst alle Inhalte
@@ -60,8 +59,8 @@ body {
 }
 
 .site-title:hover {
-  text-decoration: none; /* Entfernt die Unterstreichung */
-  color: #6A6867; /* Optional: Stellt sicher, dass die Schriftfarbe sich nicht ändert */
+  text-decoration: none;
+  color: #6A6867;
 }
 
 /* -------------------------------
@@ -86,10 +85,10 @@ body {
 .content-intro {
   margin-bottom: 2rem;
   font-family: 'Inter', sans-serif;
-  font-weight: 400; /* Inter Light 300 */
-  font-size: 18px; /* Beispielgröße */
-  letter-spacing: 0.02em; /* Leichter Abstand */
-  line-height: 1.4; /* Gute Zeilenhöhe für Lesbarkeit */
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  line-height: 1.4;
 }
 
 /* -------------------------------
@@ -103,41 +102,63 @@ body {
   margin-bottom: 1rem;
 }
 
+/* CONSOLIDATED Project Item Styling */
 .project-item {
   display: flex;
   justify-content: space-between;
-  background-color: #A39F9C;
-  padding: 0.8rem 0.8rem;
-  font-size: 0.8rem;
-  color: #181818;
-  font-family: 'Inter', sans-serif;
-  font-weight: 500; /* Inter Light 300 */
+  align-items: center;
+  min-height: 80px;
+  padding: 1.25rem 1.75rem;
+  border-radius: 0px;
+  margin-bottom: 0.3rem;
   text-decoration: none;
-  transition: background-color 0.2s ease;
-  border-radius: 0;
-  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  color: #F4F3EE;
+  font-family: 'Inter', sans-serif;
 }
 
-.project-item:hover {
-  background-color: #6A6867;
+.project-item::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(0.5px);
+  z-index: 1;
+}
+
+.project-item:hover::before {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.project-item span,
+.project-title,
+.project-date {
+  position: relative;
+  z-index: 2;
+  color: #F4F3EE !important;
 }
 
 .project-date {
   font-family: 'Inter', sans-serif;
-  font-weight: 500; /* Inter Light 300 */
+  font-weight: 500;
   white-space: nowrap;
-  color: #181818;
+  font-size: 0.9rem;
+  opacity: 0.8;
   margin-right: 1rem;
 }
 
 .project-title {
   font-family: 'Inter', sans-serif;
-  font-weight: 500; /* Inter Light 300 */
+  font-weight: 500;
   font-size: 0.85rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  color: #181818;
 }
 
 /* -------------------------------
@@ -149,7 +170,7 @@ body {
   text-align: center;
   font-size: 0.8rem;
   padding: 1rem 0;
-  margin-top: auto; /* Stellt sicher, dass der Footer unten bleibt */
+  margin-top: auto;
   width: 100%;
 }
 
@@ -221,12 +242,12 @@ body {
 /* Einheitlicher Abstand zwischen Header und Content auf allen Seiten */
 .site-header + .main .site-container,
 .site-container {
-  padding-top: 2rem; /* Gleicher Abstand auf allen Seiten */
+  padding-top: 2rem;
 }
 
 /* Optional: Den Abstand um den Titel in den Posts anpassen, um denselben Effekt zu erzielen */
 .post-header h1 {
-  margin-top: 0; /* Entferne eventuell zusätzliche Abstände vom Titel */
+  margin-top: 0;
 }
 
 .post-content a {
@@ -239,25 +260,21 @@ body {
   color: #A39F9C;
 }
 
-
 .post-header {
-  margin: 0; /* Setzt unerwünschte Margins auf 0 */
-  padding: 0; /* Entfernt eventuell Padding */
-  color: #F4F3EE !important; /* Verwende !important, um sicherzustellen, dass die Farbe angewendet wird */
-
+  margin: 0;
+  padding: 0;
+  color: #F4F3EE !important;
 }
 
 .post-header h1 {
-  margin-top: 0; /* Entfernt zusätzliches Margin vom Titel */
-  padding-top: 0; /* Entfernt eventuell Padding vom Titel */
-  color: #F4F3EE !important; /* Verwende !important, um sicherzustellen, dass die Farbe angewendet wird */
-
+  margin-top: 0;
+  padding-top: 0;
+  color: #F4F3EE !important;
 }
 
 /* -------------------------------
    Bild-Captions
 ---------------------------------- */
-
 figure.custom-caption {
   margin: 3rem 0;
   padding: 0;
@@ -286,7 +303,6 @@ figure.custom-caption figcaption {
 /* -------------------------------
    Prologue
 ---------------------------------- */
-
 .prologue-box {
   background-color: #323232;
   padding: 1.4rem;
@@ -296,9 +312,9 @@ figure.custom-caption figcaption {
   font-size: 0.9rem;
   line-height: 1.7;
   color: #A39F9C;
-  max-width: 500px;   /* Begrenzte Breite */
-  width: 100%;        /* damit sie responsiv bleibt */
-  margin: 1.5rem auto; /* vertikaler Abstand + horizontal zentriert */
+  max-width: 500px;
+  width: 100%;
+  margin: 1.5rem auto;
 }
 
 .prologue-box--transparent {
@@ -310,66 +326,5 @@ figure.custom-caption figcaption {
   font-size: 0.9rem;
   line-height: 1.7;
   margin-bottom: 3rem;
-  color: #A39F9C; /* dark text for contrast on light background */
+  color: #A39F9C;
 }
-
-/* -------------------------------
-   Postcard Links
----------------------------------- */
-.project-gallery {
-  display: flex;
-  flex-direction: column;
-  gap: 0.6rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.project-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  min-height: 80px;
-  padding: 1.25rem 1.75rem;
-  border-radius: 0px;
-  margin-bottom: 0.3rem;
-  text-decoration: none;
-  background-color: rgba(0, 0, 0, 0.5);
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  overflow: hidden;
-  transition: all 0.3s ease;
-  color: #F4F3EE;
-}
-
-.project-item::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.4);
-  backdrop-filter: blur(0.5px);
-  z-index: 1;
-}
-
-.project-item:hover::before {
-  background: rgba(0, 0, 0, 0.7);
-}
-
-.project-item span,
-.project-title,
-.project-date {
-  position: relative;
-  z-index: 2;
-  color: #F4F3EE !important;
-}
-
-.project-date {
-  font-size: 0.9rem;
-  opacity: 0.8;
-}
-
-.project-title {
-  font-weight: 500;
-}
-
-
