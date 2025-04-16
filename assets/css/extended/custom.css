@@ -316,43 +316,51 @@ figure.custom-caption figcaption {
 /* -------------------------------
    Postcard Links
 ---------------------------------- */
+.project-gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 
 .project-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 80px; 
-  padding: 1.25rem 1.75rem; /* leicht vergrößert */
+  min-height: 80px;
+  padding: 1.25rem 1.75rem;
   border-radius: 0px;
   margin-bottom: 0.3rem;
   text-decoration: none;
-  color: #F4F3EE;
   background-color: rgba(0, 0, 0, 0.5);
   background-size: cover;
   background-position: center;
   position: relative;
   overflow: hidden;
   transition: all 0.3s ease;
+  color: #F4F3EE;
 }
 
 .project-item::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.4); /* Basis-Overlay */
+  background: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(0.5px);
   z-index: 1;
-  transition: background 0.3s ease;
 }
 
 .project-item:hover::before {
-  background: rgba(0, 0, 0, 0.7); /* dunkler bei Hover */
+  background: rgba(0, 0, 0, 0.7);
 }
 
-.project-item span {
+.project-item span,
+.project-title,
+.project-date {
   position: relative;
   z-index: 2;
-  color: #F4F3EE;
+  color: #F4F3EE !important;
 }
 
 .project-date {
@@ -363,4 +371,5 @@ figure.custom-caption figcaption {
 .project-title {
   font-weight: 500;
 }
+
 
