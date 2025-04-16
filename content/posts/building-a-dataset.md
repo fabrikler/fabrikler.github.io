@@ -87,8 +87,6 @@ That's it.
 
 ### Cleaning and arranging
 
-_(Insert image of the cleaned table here)_
-
 The raw list was almost perfect, but still needed a bit of cleaning.
 
 I used Excel formulas like `=TRIM(CLEAN(B2))` to get rid of weird spacing or invisible characters. Some fields were merged and had to be split using Power Query.
