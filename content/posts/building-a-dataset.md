@@ -79,7 +79,7 @@ I won’t publish the full scraper here, but the idea is simple:
 
 That's it.
 
-{{< caption src="/img/002/paesse-first-csv-overview-002.png" alt="csv snippet of swiss mountain peaks" text="building the dataset" >}}
+{{< caption src="/img/002/paesse-first-csv-overview-002.png" alt="csv snippet of swiss mountain peaks" text="Building the Dataset" >}}
 
 
 ### Cleaning and arranging
@@ -110,7 +110,7 @@ And funny enough, this was one of the first things I learned when starting with 
 
 After cleaning and exporting the data, I loaded it into a simple table and started checking for outliers. One or two passes had gradients over 25% – which didn’t feel right. Some had distances of "99 km" that were clearly a typo. Where necessary, I fixed them manually.
 
-{{< caption src="/img/002/komoot-overview-001.png" alt="csv snippet of swiss mountain peaks" text="building the dataset" >}}
+{{< caption src="/img/002/komoot-overview-001.png" alt="Routes in Komoot" text="Using Komoot for Route Planning" >}}
 
 ### From table (csv) to terrain (gpx)
 

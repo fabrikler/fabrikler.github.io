@@ -5,7 +5,7 @@ title: 'My favourite animals are pandas (not the lazy bears) — 003'
 background: "/img/001/mountain-passes-overview-005.jpg"
 ---
 
-{{< caption src="/img/001/mountain-passes-overview-005.jpg" alt="Source of the young Rhone River near Rhone Glacier" text="The young Rhone, fresh from its source" >}}
+{{< caption src="/img/001/mountain-passes-overview-011.jpg" alt="Foggy Road at Gotthard Pass" text="From sun to thick fog – the weather can change in minutes" >}}
 
 With my freshly scraped and cleaned CSV in hand, I started digging into <a href="https://pandas.pydata.org/" target="_blank" rel="noopener">Pandas</a>
 , <a href="https://matplotlib.org/" target="_blank" rel="noopener">Matplotlib</a> and <a href="https://seaborn.pydata.org/" target="_blank" rel="noopener">Seaborn</a> to plot my first chart.
